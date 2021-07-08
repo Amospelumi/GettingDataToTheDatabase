@@ -1,0 +1,198 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+    background-image: linear-gradient(rgb(0, 0, 0),black);
+    margin: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.demo{
+    text-align: center;
+    text-decoration: none;
+    padding-top: 50px;
+}
+
+.demo a:hover{
+    background-color: rgb(148, 4, 4);
+    color: white;
+    border-radius: 15px;
+}
+
+.demo h1{
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.box h1{
+    text-align: center;
+    color: rgb(80, 80, 80);
+    font-weight: 900;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.box h2{
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    color: black;
+    font-weight: 900;
+}
+
+.box{
+    background-color: white;
+    margin-top: 50px;
+    margin-bottom: 150px;
+    padding: 20px;
+    box-sizing: border-box;
+    height: 160vh;
+    width: 50%;
+    border-style: none;
+    margin-left: 350px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px black;
+}
+
+@media(max-width: 800px){
+    .demo, a{
+        text-align: center;
+        text-decoration: none;
+        padding-top: 50px;
+        position: relative;
+        margin: auto;
+    }
+    .demo{
+        text-align: center;
+        text-decoration: none;
+        margin-top: 10px;
+    }
+
+    .img{
+        margin-left: 50px;
+    }
+
+    .box{
+        background-color: white;
+        background-position: center;
+        margin-top: 50px;
+        margin-bottom: 20px;
+        padding: 20px;
+        box-sizing: border-box;
+        height: 130vh;
+        position: absolute;
+        width: 100%;
+        border-style: none;
+        margin-left: 0;
+        border-radius: 20px;
+        box-shadow: 1px 1px 5px black;
+    }
+
+    .box h1{
+        text-align: center;
+        color: rgb(80, 80, 80);
+        font-weight: 900;
+        font-size: large;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    
+    .box h2{
+        font-family: 'Ubuntu', sans-serif;
+        text-align: center;
+        font-size: large;
+        font-weight: 900;
+    }
+
+    input, input[type="number"]{
+        width: 200px;
+    }
+
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+
+    button{
+        width: 90%;
+        padding: 4px;
+        background-color: rgb(216, 10, 10);
+        border-style: none;
+        box-shadow: 1px 1px 3px black;
+        color: white;
+        border-radius: 8px;
+        font-weight: 400;
+        font-size: 12px;
+        transition: 0.5s;
+        box-sizing: border-box;
+    }
+    
+    button:hover{
+        width: 50%;
+        border-radius: 12px;
+        padding: 10px;
+        background-color: rgb(167, 7, 7);
+        border-style: none;
+        box-shadow: 1px 1px 3px black;
+        color: white;
+    }
+
+    .form{
+        margin-left: 0;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    
+    
+}
+
+
+
+.form{
+    margin-left: 60px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+input{
+    padding: 20px;
+    border-radius: 8px;
+    background-color: rgb(243, 243, 243);
+    border-style: none;
+}
+
+.error{
+    color: red;
+    font-size: 15px;
+}
+
+button{
+    width: 90%;
+    padding: 15px;
+    background-color: rgb(216, 10, 10);
+    border-style: none;
+    box-shadow: 1px 1px 3px black;
+    color: white;
+    font-size: 15px;
+    box-sizing: border-box;
+    font-weight: 800;
+    border-radius: 8px;
+    transition: 0.5s;
+}
+
+button:hover{
+    width: 90%;
+    border-radius: 16px;
+    padding: 20px;
+    background-color: rgb(167, 7, 7);
+    border-style: none;
+    box-shadow: 1px 1px 3px black;
+    color: white;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+ }
