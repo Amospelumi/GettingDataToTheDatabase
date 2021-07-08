@@ -1,9 +1,9 @@
 <?php 
 
-$dbhost = "business116";
-$name = "phanqtgr_wp140";
-$dbpass = "@+m()sph3r3";
-$dbname = "phanqtgr_presentation";
+$dbhost = "";
+$name = "";
+$dbpass = "";
+$dbname = "";
 
 $dbconnect = mysqli_connect($dbhost, $name, $dbpass, $dbname);
 
